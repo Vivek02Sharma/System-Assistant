@@ -18,7 +18,6 @@ class AppController:
         return "App not supported"
 
     def open_windows_app(self, app_name):
-        """Open Windows applications using their common names"""
         app_mappings = {
             "notepad": "notepad",
             "calculator": "calc",
